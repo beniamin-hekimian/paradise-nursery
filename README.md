@@ -1,12 +1,53 @@
-# React + Vite
+# Paradise Nursery 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end e-commerce application for a fictional plant shop, built with **React** and **Redux Toolkit**. This project was the final capstone for IBM’s *Developing Front-End Apps with React* course.
 
-Currently, two official plugins are available:
+## Live Preview 🌍
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Live Demo](https://paradise-nursery-by-beniamin.vercel.app)
 
-## Expanding the ESLint configuration
+## Features ✅
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. 🏠 **Landing Page** with a welcoming message, background image, and CTA button.
+2. 🪴 **Product Listing Page** showing all available plants with category filters.
+3. 🛒 **Cart Functionality** to add, remove, and update plant quantities in real time.
+4. 📦 **Cart Summary Page** with total item count and checkout mockup.
+5. 📱 **Fully responsive layout** for mobile and desktop.
+
+## Mockup 📸
+
+![screenshot](./src/assets/images/mockup.webp)
+
+## What I Learned 📚
+
+1️⃣ **Redux Toolkit Usage:**
+   - Replaced React Context with **Redux Toolkit** for global state management.
+   - Created a centralized store and integrated it seamlessly into the app.
+
+2️⃣ **Custom Reducers Implementation:**
+   - Developed `cartSlice.js` with four core reducers:
+     - `addToCart`
+     - `removeFromCart`
+     - `increaseQuantity`
+     - `decreaseQuantity`
+
+3️⃣ **Scalable Architecture:**
+   - Designed a modular folder structure for scalability and maintainability.
+   - Clearly separated UI components, Redux logic, and routing configurations.
+
+4️⃣ **Integration with External Services:**
+   - Used `Axios` library to fetch product data from a remote JSON server.
+   - Handled async flows efficiently using Redux and `useEffect`.
+
+## Technologies Used 🛠️
+
+- ⚛️ React
+- 🧰 Redux Toolkit
+- 🌐 React Router DOM
+- 📡 Axios Library
+- 🎨 CSS Variables
+- 🚀 Vercel
+
+## Conclusion 🎉
+
+Built with care by **Beniamin Hekimian**. For feedback or collaboration, feel free to reach out! ✉️
