@@ -46,7 +46,7 @@ export default function ShoppingCartPage() {
           ))}
           </section>
           <Link to="/plants" className="btn">Continue Shopping</Link>
-          <button className="btn">Checkout</button>
+          <button className="btn" title="Coming Soon" disabled>Checkout</button>
         </div>
       </main>
     </>
