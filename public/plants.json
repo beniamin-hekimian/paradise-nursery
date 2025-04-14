@@ -1,0 +1,100 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Peace Lily",
+      "image": "images/peace-lily.webp",
+      "price": 10,
+      "description": "An elegant plant known for its air-purifying qualities.",
+      "type": "air purifying"
+    },
+    {
+      "id": 2,
+      "name": "Snake Plant",
+      "image": "images/snake-plant.webp",
+      "price": 11,
+      "description": "Also called Mother-in-Law's Tongue, great for improving indoor air.",
+      "type": "air purifying"
+    },
+    {
+      "id": 3,
+      "name": "Aloe Vera",
+      "image": "images/aloe-vera.webp",
+      "price": 9,
+      "description": "Succulent with medicinal uses and air-cleaning benefits.",
+      "type": "air purifying"
+    },
+    {
+      "id": 4,
+      "name": "Spider Plant",
+      "image": "images/spider-plant.webp",
+      "price": 8,
+      "description": "Easy-care plant that removes toxins from the air.",
+      "type": "air purifying"
+    },
+    {
+      "id": 5,
+      "name": "Bamboo Palm",
+      "image": "images/bamboo-palm.webp",
+      "price": 14,
+      "description": "Adds tropical vibes while purifying the air.",
+      "type": "air purifying"
+    },
+    {
+      "id": 6,
+      "name": "Boston Fern",
+      "image": "images/boston-fern.webp",
+      "price": 11,
+      "description": "Classic fern that thrives in humidity and filters air.",
+      "type": "air purifying"
+    },
+    {
+      "id": 7,
+      "name": "Lavender",
+      "image": "images/lavender.webp",
+      "price": 13,
+      "description": "Fragrant herb known for its calming scent.",
+      "type": "aromatic fragrant"
+    },
+    {
+      "id": 8,
+      "name": "Rosemary",
+      "image": "images/rosemary.webp",
+      "price": 9,
+      "description": "Aromatic herb great for cooking and natural fragrance.",
+      "type": "aromatic fragrant"
+    },
+    {
+      "id": 9,
+      "name": "Jasmine",
+      "image": "images/jasmine.webp",
+      "price": 14,
+      "description": "Popular for its sweet-smelling white flowers.",
+      "type": "aromatic fragrant"
+    },
+    {
+      "id": 10,
+      "name": "Mint",
+      "image": "images/mint.webp",
+      "price": 7,
+      "description": "Refreshing scent and versatile use in drinks and food.",
+      "type": "aromatic fragrant"
+    },
+    {
+      "id": 11,
+      "name": "Lemon Balm",
+      "image": "images/lemon-balm.webp",
+      "price": 9,
+      "description": "Mild lemon scent that soothes and uplifts.",
+      "type": "aromatic fragrant"
+    },
+    {
+      "id": 12,
+      "name": "Gardenia",
+      "image": "images/gardenia.webp",
+      "price": 15,
+      "description": "Luxurious scent and elegant blooms, perfect for indoors.",
+      "type": "aromatic fragrant"
+    }
+  ]
+}

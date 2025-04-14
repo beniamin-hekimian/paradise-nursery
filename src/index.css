@@ -1,0 +1,13 @@
+/* project css variables */
+:root{
+  --max-width: 1000px;
+
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #45a14e;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}

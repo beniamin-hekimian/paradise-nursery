@@ -1,0 +1,93 @@
+.plants{
+    padding: 20px 0;
+    background-color: #e5e5e5;
+}
+
+.plants .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plants h2{
+    display: inline-block;
+    margin: 0;
+    padding: 2px 25px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.card-grid{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+/* plant-card styles */
+.plant-card{
+    position: relative;
+    padding: 20px;
+    background-color: var(--bs-light);
+    box-shadow: 0 0 1px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plant-card > h3{
+    margin-top: 0;
+}
+
+.plant-card > img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.plant-card > strong{
+    margin-top: 8px;
+    color: var(--bs-danger);
+}
+
+.plant-card > p{
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    flex: 1;
+}
+
+.plant-card > button{
+    background-color: var(--bs-success);
+}
+
+.plant-card > button:disabled{
+    background-color: var(--bs-secondary);
+    opacity: 75%;
+}
+
+.plant-card > small{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: var(--bs-danger);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+@media screen and (width <= 768px){
+    .card-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (width <= 426px){
+    .card-grid{
+        grid-template-columns: 1fr;
+    }
+    .plants h2{
+        font-size: 18px;
+    }
+}

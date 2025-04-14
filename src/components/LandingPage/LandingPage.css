@@ -1,0 +1,77 @@
+.home{
+    position: relative;
+    color: var(--bs-light);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../../assets/images/landingPage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%) blur(5px);
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+.home > .row{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 60px;
+}
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-column > h1{
+    margin: 0;
+    font-size: 32px;
+    width: 16ch;
+}
+
+.left-column > hr{
+    width: 40px;
+    border: 1.5px solid var(--bs-success);
+    margin: 20px auto;
+}
+
+.left-column > p{
+    margin: 0;
+}
+
+.left-column > .btn{
+    margin-top: 40px;
+    background-color: var(--bs-success);
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.right-column > h2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (width <= 768px){
+    .home > .row{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .right-column{
+        display: none;
+    }
+}
